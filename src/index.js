@@ -1,6 +1,4 @@
-console.log("Hi There!");
+const fs = require('fs');
 
-var a = 11;
-var b = 9;
-
-console.log(a * b);
+console.log('->>', __filename);
+fs.writeFileSync("filex.txt", "This is example of fs in js")
