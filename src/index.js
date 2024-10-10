@@ -6,7 +6,8 @@ http.createServer((_, res) => {
         { name: "@FoXDev-404", email: "foxdev_404@gmail.com" },
         { name: "Rajpal Nishad", email: "rajpal.nishad@gmail.com" },
         { name: "Nikhil Pratap Singh", email: "nikhil.p.s@gmail.com" },
-        { name: "@Unkn0wn", email: "unkn0wn.worrior@gamil.com" }
+        { name: "@Unkn0wn", email: "unkn0wn.worrior@gamil.com" },
+        { name: "Unicorn", email: "unicorn@gmail.com" }
     ]));
     res.end();
 }).listen(4040);
