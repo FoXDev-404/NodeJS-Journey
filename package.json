@@ -4,12 +4,16 @@
   "description": "NodeJS-Journey: A step-by-step exploration of Node.js from beginner to advanced. This repository documents my learning process, projects, and hands-on practice as I dive deep into Node.js development, including backend scripting, APIs, and real-world applications.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "@FoXDev-404",
   "license": "ISC",
   "dependencies": {
+    "date-fns": "^4.1.0",
     "node": "^22.9.0",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "uuid": "^11.0.3"
   }
 }
